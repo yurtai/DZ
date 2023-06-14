@@ -16,3 +16,5 @@ else
 {
     Console.WriteLine("Третья цифра: " + Num[2]);
 }
+
+
