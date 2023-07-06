@@ -10,7 +10,7 @@ int []GetRandomArray(int size, int minValue, int maxValue)
     } 
     return result;
 }
-int[] arr = GetRandomArray (4,-9,9);
+int[] arr = GetRandomArray (6,-9,9);
 for (int i = 0; i < arr.Length; i++)
 {
     arr[i]*=-1;
