@@ -5,9 +5,15 @@ Console.WriteLine ("Введите число А: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите число В: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
-if (numberA>numberB){
+
+if (numberA > numberB)
+{
     Console.WriteLine ($"Больше число A({numberA})");
 }
-else{
-   Console.WriteLine ($"Больше число B({numberB})"); 
+else if (numberA < numberB)
+{
+    Console.WriteLine ($"Больше число B({numberB})");
+}
+else if (numberA == numberB){
+    Console.WriteLine ($"Числа равны: {numberA}={numberB}");
 }
