@@ -10,6 +10,6 @@ Console.Write ("Неверное значение N");
 return;
 }
 while (count <= N) {
-    Console.Write ($" {Math.Pow(count, 3)}");
+    Console.WriteLine ($"{Math.Pow(count,3)}");
     count++;
 }
